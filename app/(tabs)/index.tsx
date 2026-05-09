@@ -90,7 +90,7 @@ export default function HomeScreen() {
         {/* Summary Cards */}
         <View className="gap-3 mb-6">
           {/* Transactions Today Card */}
-          <View className="bg-gradient-to-r from-primary to-secondary rounded-xl p-4 border border-primary">
+          <View className="bg-primary rounded-xl p-4 border border-primary">
             <View className="flex-row items-center justify-between">
               <View>
                 <Text className="text-sm text-background opacity-80">Transactions Today</Text>

@@ -5,7 +5,7 @@ import { useSpeechToText } from "@/hooks/use-speech-to-text";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useState } from "react";
 import * as Haptics from "expo-haptics";
-import { parseTranscript as parseTranscriptUtil } from "@/lib/transaction-parser.test";
+import { parseTranscript as parseTranscriptUtil } from "@/lib/transaction-parser";
 
 interface ParsedTransaction {
   amount: number | null;
