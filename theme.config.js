@@ -1,8 +1,9 @@
 /** @type {const} */
 const themeColors = {
-  primary: { light: '#0a7ea4', dark: '#0a7ea4' },
-  background: { light: '#ffffff', dark: '#151718' },
-  surface: { light: '#f5f5f5', dark: '#1e2022' },
+  primary: { light: '#14F195', dark: '#14F195' },  // Solana Green
+  secondary: { light: '#9945FF', dark: '#9945FF' },  // Solana Purple
+  background: { light: '#ffffff', dark: '#0B0E11' },
+  surface: { light: '#F5F5F5', dark: '#1A1D20' },
   foreground: { light: '#11181C', dark: '#ECEDEE' },
   muted: { light: '#687076', dark: '#9BA1A6' },
   border: { light: '#E5E7EB', dark: '#334155' },

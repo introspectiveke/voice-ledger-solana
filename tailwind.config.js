@@ -12,6 +12,10 @@ const tailwindColors = Object.fromEntries(
   ]),
 );
 
+// Add Solana brand colors for direct use
+tailwindColors['solana-green'] = '#14F195';
+tailwindColors['solana-purple'] = '#9945FF';
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
